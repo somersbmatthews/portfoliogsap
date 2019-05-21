@@ -6,8 +6,11 @@ import Tween from 'gsap/TweenMax';
 
 class App() {
   constructor(props) {
-    
+    // this.myElement forms the bridge between the gsap library and the dom node
+    // via React
     this.myElement = null;
+
+    // this.MyTween is the actual animation
     this.myTween = null;
   }
 
