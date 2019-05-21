@@ -12,15 +12,18 @@ class App() {
   }
 
   componentDidMount() {
-  render() {
-    return (
-      <div className="App">
-        <h1>Text with fade in.</h1>
-        <h1>Text with wobble.</h1>
-        <h1>Text with fade in and wobble</h1>
-      </div>
-    );
+    render() {
+      return (
+        <div className="App">
+          <h1>Text with fade in.</h1>
+          <h1>Text with wobble.</h1>
+          <h1>Text with fade in and wobble</h1>
+        </div>
+      );
+    }
   }
 }
+
+
 
 export default App;
