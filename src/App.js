@@ -14,7 +14,11 @@ class App() {
     this.myTween = null;
   }
 
-  componentDidMount() {
+  componentDidMount(){
+    // use the node ref to create the animation
+    this.myTween = TweenLite.to(this.myElement, 1, {x: 100, y: 100});
+  }
+  
     render() {
       return (
         <div className="App">
@@ -24,7 +28,7 @@ class App() {
         </div>
       );
     }
-  }
+  
 }
 
 
