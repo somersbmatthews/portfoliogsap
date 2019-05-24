@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import './App.css';
 
-// const Tween = require('gsap/TweenMax');
+import Tween from 'gsap/TweenMax';
 
 class App extends Component {
   constructor() {
@@ -17,7 +17,7 @@ class App extends Component {
 
   componentDidMount(){
     // use the node ref to create the animation
-    // this.myTween = Tween.to(this.myElement, 1, {x: 100, y: 100});
+    this.myTween = Tween.to(this.myElement, 1, {x: 100, y: 100});
   }
 
     render() {
