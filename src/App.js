@@ -22,10 +22,11 @@ class App extends Component {
 
     render() {
       return (
-        <div className="App" ref={div => this.myElement = div}>
+        <div className="App" >
           <h1>Text with fade in.</h1>
           <h1 className="animated wobble">Text with wobble.</h1>
           <h1>Text with fade in and wobble</h1>
+          <h1 ref={div => this.myElement = div}>Test of GSAP</h1>
         </div>
       );
     }
