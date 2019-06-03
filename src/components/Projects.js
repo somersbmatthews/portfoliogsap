@@ -6,10 +6,16 @@ class Projects extends Component {
 
    }
 
+   render() {
+      return (
+         <h1>Test of Projects Component</h1>
+      )
+
+   }
 
 
 }
 
 
 
-export default 
+export default Projects;

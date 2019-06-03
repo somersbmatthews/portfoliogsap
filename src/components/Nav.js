@@ -11,6 +11,11 @@ class Nav extends Component {
       // this.tween is the actual animation
       this.tween = null;
    }
+
+   render() {
+      return (
+         <h1>Test of Nav Component</h1>
+      )
 }
 
 export default Nav;
