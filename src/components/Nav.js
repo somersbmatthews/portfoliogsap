@@ -16,6 +16,7 @@ class Nav extends Component {
       return (
          <h1>Test of Nav Component</h1>
       )
+   }
 }
 
 export default Nav;
