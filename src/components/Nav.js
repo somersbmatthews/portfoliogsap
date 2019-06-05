@@ -12,6 +12,11 @@ class Nav extends Component {
       this.tween = null;
    }
 
+   componentDidMount(){
+      // use the node ref to create the animation
+      this.myTween = Tween.to(this.myElement, 1, {x: 100, y: 100});
+    }
+
    render() {
       return (
          <h1>Test of Nav Component</h1>
