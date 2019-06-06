@@ -6,6 +6,9 @@ class Projects extends Component {
       // this.element forms the bridge between the gsap library and the dom node
       // via React
       this.element = null;
+
+      // this.tween is the actual animation
+      this.tween = null;
    }
 
    render() {
