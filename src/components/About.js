@@ -15,6 +15,12 @@ class About extends Component {
       // use the node ref to create the animation
       this.myTween = Tween.to(this.myElement, 1, {x: 100, y: 100});
     }
+
+    render() {
+      return (
+         <h1>Test of About Component</h1>
+      )
+   }
 }
 
 export default About;
