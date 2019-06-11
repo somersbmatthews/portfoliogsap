@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class Nav extends Component {
+class About extends Component {
    constructor() {
       super()
       // this.element forms the bridge between the gsap library and the dom node
@@ -11,3 +11,5 @@ class Nav extends Component {
       this.tween = null;
    }
 }
+
+export default About;
