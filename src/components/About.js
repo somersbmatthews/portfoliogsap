@@ -10,6 +10,11 @@ class About extends Component {
       // this.tween is the actual animation
       this.tween = null;
    }
+
+   componentDidMount(){
+      // use the node ref to create the animation
+      this.myTween = Tween.to(this.myElement, 1, {x: 100, y: 100});
+    }
 }
 
 export default About;
